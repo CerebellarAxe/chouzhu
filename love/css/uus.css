@@ -1,0 +1,45 @@
+/* CSS Document */
+
+  *{
+  	font-family: 楷体
+  	color: #000000;
+  }
+  a{
+        background-color: #ea6192;
+        display: block;
+        height: 50px;
+        width: 200px;
+        line-height: 50px;
+        text-decoration:none;
+        color: #fff;
+        border-left: 10px solid #950148;
+        border-right: 2px solid #950148;
+        border-top:  1px solid #fff;
+    }
+  a:link{
+  	font-family: 楷书;
+  	font-size: 20px;
+  	color: pink;
+  }
+  a:visited{
+  	font-family: 宋体;
+  	font-size: 24px;
+  	color: pink;
+  }
+  a:focus{
+  	font-size: 30px;
+  	font-family: 魏体;
+  	color: red;
+  }
+  a:hover{
+    background-color: #c3045f;
+  	font-size: 24px;
+  	font-family: 柳体;
+  	color: green;
+  }
+  a:active{
+  	font-family: "黑体";
+  	font-size: 30px;
+  	color: blue;
+  	background-color: pink;
+  }
